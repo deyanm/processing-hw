@@ -15,7 +15,7 @@ void setup() {
 
 void draw() {
    for (int i=0; i<nums.length; i++) {
-  fill(100+nums[i],0+nums[i],0+nums[i]);
+  fill(100+nums[i],nums[i],nums[i]);
   rect(i*40, height-nums[i], 40, nums[i]);
   }
 }
